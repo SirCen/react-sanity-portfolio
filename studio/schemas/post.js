@@ -38,6 +38,12 @@ export default {
       of: [{type: 'reference', to: {type: 'category'}}],
     },
     {
+      name: 'project',
+      title: 'Project',
+      type: 'array',
+      of: [{type: 'reference', to: {type: 'project'}}],
+    },
+    {
       name: 'publishedAt',
       title: 'Published at',
       type: 'datetime',

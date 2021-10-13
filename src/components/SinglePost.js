@@ -42,13 +42,12 @@ export default function SinglePost() {
                         <div className="bg-white bg-opacity-75 rounded p-12">
                             <h1 className="text-3xl lg:text-6xl mb-4">{singlePost.title}</h1>
                             <div className="flex justify-center text-gray-800">
-                                {singlePost.authorImage && singlePost.authorImage.map((project, index) => (
                                 <img 
                                 src={urlFor(singlePost.authorImage).url()} 
                                 alt={singlePost.name}
                                 className="w-10 h-10 rounded-full"
                                 />
-                                ))}
+                               
                                 <p className="flex items-center pl-2 text-2xl">
                                     {singlePost.name}
                                 </p>
