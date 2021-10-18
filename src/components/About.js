@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import sanityClient from "../client.js";
-import purple from "../purple.jpg";
+import purple from "../assets/purple.jpg";
 import imageUrlBuilder from '@sanity/image-url';
 import BlockContent from "@sanity/block-content-to-react";
 
